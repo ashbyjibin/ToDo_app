@@ -1,0 +1,54 @@
+.banner{
+    background-color:#ff0066;
+    height:300;
+    width:100%
+}
+
+.ban-text{
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    color:white;
+}
+
+.go-back{
+    padding:20px;
+    color:#ff0066;
+}
+
+h1{
+    font-family: 'Roboto', "sans-serif";
+    font-size: 40px;
+}
+
+/*delete*/
+
+.del{
+    margin-left:25%;
+    margin-right:25%;
+}
+
+.del-txt{
+    padding-top:8%;
+    padding-bottom:8%;
+}
+
+/*update*/
+
+.edit{
+    margin-left:30%;
+    margin-right:30%;
+}
+
+.edit_form{
+    padding-top:10%;
+    padding-bottom:4%;
+}
+
+/*task_view*/
+
+.task{
+    margin-right:4px;
+    margin-left:4px;
+}

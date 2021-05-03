@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div>
+   <h onclick="history.back(-1)"><i class="fa fa-arrow-left go-back" aria-hidden="true" style="cursor:pointer"></i></h>
+</div>
+<form  method="POST">
+{% csrf_token %}
+    <div class="card p-3 shadow del">
+        <div class="text-center del-text">
+            <h2>Are you sure you want to delete this task?</h2><br>
+            <button class="btn btn-success text-center" type="submit">Confirm</button>
+        </div>
+    </div>
+</form>
+{% endblock %}
